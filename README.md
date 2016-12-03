@@ -9,6 +9,18 @@ You should simple include the `cheerioweb.js` in your project. It will inject it
 
 You can then us it like this:
 
+### Local
+Checkout this repository and use the `cheerioweb.js` file like this:
+
+`<script src="cheerioweb.js"></script>`
+
+
+### Online - as CDN
+Point to this code through say `rawgit.com` like this:
+
+`<script src="https://cdn.rawgit.com/netsi1964/cheerioweb/master/cheerioweb.js"></script>`
+
+
 ```
 var root = cheerio.load(document.body.innerHTML)
 ```
