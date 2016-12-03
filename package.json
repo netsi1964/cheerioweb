@@ -1,0 +1,15 @@
+{
+  "name": "cheerioweb",
+  "version": "1.0.0",
+  "description": "Use cheerio on the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sten Hougaard",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "json-loader": "0.5.4"
+  }
+}
