@@ -8,9 +8,10 @@ Here I test it.
 You should simple include the `cheerioweb.js` in your project. It will inject itself into the global `window` object of your browser.
 
 You can then us it like this:
+
 ```
 var root = cheerio.load(document.body.innerHTML)
-``
+```
 
 This would give you a cheerio object named `root` containing a "cheerio view" of the HTML contained in the `body` element of your webpage.
 
@@ -18,4 +19,3 @@ This would give you a cheerio object named `root` containing a "cheerio view" of
 You should then be able to use all the features included in [Cheerio](https://cheerio.js.org/).
 
 - Happy (web) coding! :-)
-- 
